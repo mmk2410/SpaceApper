@@ -1,0 +1,30 @@
+{
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "type": "module"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tb.spaceapper@mmk2410.org",
+      "strict_min_version": "115.0"
+    }
+  },
+  "description": "Add webpages to the spaces toolbar.",
+  "developer": {
+    "name": "Marcel Kapfer",
+    "url": "https://mmk2410.org"
+  },
+  "host_permissions": ["*://*/*"],
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "manifest_version": 3,
+  "name": "SpaceApper",
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": false
+  },
+  "permissions": ["storage", "webRequest", "webRequestBlocking"],
+  "version": "0.1.0"
+}

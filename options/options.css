@@ -1,0 +1,64 @@
+html {
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    box-shadow: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #7a01d0;
+}
+
+#spaces {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#spaces td {
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+#spaces td:first-of-type {
+    border-left: none;
+}
+
+#spaces td:last-of-type {
+    border-right: none;
+}
+
+#spaces thead td {
+    font-weight: bold;
+    padding: 10px;
+}
+
+#spaces tbody input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: inherit;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#spaces tbody button {
+    margin: 10px;
+}
+
+#actions {
+    width: 100%;
+    margin: 10px 0;
+    text-align: right;
+}
+
+#actions button:first-of-type {
+    margin-right: 5px;
+}
