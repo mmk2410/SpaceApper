@@ -16,8 +16,8 @@
   },
   "host_permissions": ["*://*/*"],
   "icons": {
-    "48": "icon.svg",
-    "96": "icon.svg"
+    "48": "assets/icon.svg",
+    "96": "assets/icon.svg"
   },
   "manifest_version": 3,
   "name": "SpaceApper",
