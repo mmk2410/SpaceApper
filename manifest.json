@@ -12,7 +12,7 @@
   "description": "Add webpages to the spaces toolbar.",
   "developer": {
     "name": "Marcel Kapfer",
-    "url": "https://mmk2410.org"
+    "url": "https://git.mmk2410.org/mmk2410/SpaceApper"
   },
   "host_permissions": ["*://*/*"],
   "icons": {
