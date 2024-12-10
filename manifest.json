@@ -26,5 +26,5 @@
     "browser_style": false
   },
   "permissions": ["storage", "webRequest", "webRequestBlocking"],
-  "version": "0.1.0"
+  "version": "0.2"
 }
