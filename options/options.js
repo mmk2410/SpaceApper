@@ -19,7 +19,7 @@ function buildSpaceElement(app) {
 
   tr.appendChild(buildInputRow("title", app.title));
   tr.appendChild(buildInputRow("url", app.url));
-  tr.appendChild(buildInputRow("icon", app.icon));
+  tr.appendChild(buildInputRow("badgeBackgroundColor", app.badgeBackgroundColor));
 
   const removeTd = document.createElement("td");
   const removeButton = document.createElement("button");
@@ -46,7 +46,7 @@ function addSpace() {
   const newApp = {
     title: "",
     url: "",
-    icon: "",
+    badgeBackgroundColor: "",
   };
   spaces.appendChild(buildSpaceElement(newApp));
 }
@@ -66,7 +66,7 @@ async function saveChanges(e) {
       name: hashSpaceName(space.querySelector("input[name='url']").value),
       title: space.querySelector("input[name='title']").value,
       url: space.querySelector("input[name='url']").value,
-      icon: space.querySelector("input[name='icon']").value,
+      badgeBackgroundColor: space.querySelector("input[name='badgeBackgroundColor']").value,
     };
     apps.push(app);
   });

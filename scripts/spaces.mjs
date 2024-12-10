@@ -20,7 +20,8 @@ async function createSpaces() {
     urls.push(app.url);
     await browser.spaces.create(app.name, app.url, {
       title: app.title,
-      defaultIcons: app.icon,
+      badgeText: app.title.substring(0, 2),
+      badgeBackgroundColor: app.badgeBackgroundColor
     });
   });
 
