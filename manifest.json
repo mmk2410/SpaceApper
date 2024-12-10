@@ -6,7 +6,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "tb.spaceapper@mmk2410.org",
-      "strict_min_version": "115.0"
+      "strict_min_version": "128.0"
     }
   },
   "description": "Add webpages to the spaces toolbar.",
